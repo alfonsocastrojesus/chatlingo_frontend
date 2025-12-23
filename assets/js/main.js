@@ -3,9 +3,10 @@ const inputText = document.getElementById("inputText");
 const targetLang = document.getElementById("targetLang");
 const sendBtn = document.getElementById("sendBtn");
 const botAnswer = document.getElementById("botAnswer");
-
-// limpiar placeholder inicial
-botAnswer.innerHTML = "";
+const BACKEND_URL = "https://chatlingo-backend.onrender.com"(
+  // limpiar placeholder inicial
+  (botAnswer.innerHTML = "")
+);
 
 // manejar evento de click en el boton traducir
 sendBtn.addEventListener("click", async () => {
@@ -26,7 +27,7 @@ sendBtn.addEventListener("click", async () => {
 
   try {
     // llamar al endpoint de traduccion
-    const response = await fetch("/api/traducir", {
+    const response = await fetch(`${BACKEND_URL}/api/traducir`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
