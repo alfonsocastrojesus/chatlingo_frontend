@@ -4,7 +4,7 @@ A simple, friendly web app for translating any phrase into another language.
 
 ---
 
-[Chatlingo Screenshot](screenshot.png)
+![Chatlingo Screenshot](screenshot.png)
 
 ---
 
