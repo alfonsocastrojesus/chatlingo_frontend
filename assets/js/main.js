@@ -3,10 +3,9 @@ const inputText = document.getElementById("inputText");
 const targetLang = document.getElementById("targetLang");
 const sendBtn = document.getElementById("sendBtn");
 const botAnswer = document.getElementById("botAnswer");
-const BACKEND_URL = "https://chatlingo-backend.onrender.com"(
-  // limpiar placeholder inicial
-  (botAnswer.innerHTML = "")
-);
+const BACKEND_URL = "https://chatlingo-backend.onrender.com";
+// limpiar placeholder inicial
+botAnswer.innerHTML = "";
 
 // manejar evento de click en el boton traducir
 sendBtn.addEventListener("click", async () => {
