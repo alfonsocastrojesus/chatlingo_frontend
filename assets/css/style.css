@@ -1,5 +1,5 @@
 :root {
-  background: #2e3a46;
+  background: #393939;
   font-family: "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -43,7 +43,7 @@ body {
 }
 
 .bot-answer {
-  background: #2e3a46;
+  background: #393939;
   border-radius: 8px;
   padding: 20px;
   margin: 20px 0;
@@ -51,7 +51,7 @@ body {
   max-height: 400px;
   max-width: 600px;
   width: 100%;
-  border: 1px solid #4a90a4;
+  border: 1px solid #4B4B4B;
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -64,17 +64,17 @@ body {
 }
 
 .bot-answer::-webkit-scrollbar-track {
-  background: #2e3a46;
+  background: #393939;
   border-radius: 4px;
 }
 
 .bot-answer::-webkit-scrollbar-thumb {
-  background: #1a2430;
+  background: #191919;
   border-radius: 4px;
 }
 
 .bot-answer::-webkit-scrollbar-thumb:hover {
-  background: #0f1820;
+  background: #191919;
 }
 
 .mensaje {
@@ -85,17 +85,17 @@ body {
 }
 
 .mensaje--usuario {
-  background: #4a90a4;
+  background: #5D5D5D;
   align-self: flex-end;
 }
 
 .mensaje--bot {
-  background: #1a2430;
+  background: #191919;
   align-self: flex-start;
 }
 
 .mensaje--cargando {
-  background: #1a2430;
+  background: #191919;
   border-left: 3px solid #eaeaea;
   align-self: flex-start;
   opacity: 0.7;
@@ -118,12 +118,12 @@ body {
 .chat {
   display: flex;
   flex-direction: column;
-  background: #2e3a46;
+  background: #393939;
   border-radius: 8px;
   padding: 30px;
   max-width: 600px;
   width: 100%;
-  border: 1px solid #4a90a4;
+  border: 1px solid #4B4B4B;
 }
 
 .chat__input-group {
@@ -135,17 +135,17 @@ body {
 .chat__input {
   width: 100%;
   padding: 15px 20px;
-  border: 1px solid #4a90a4;
+  border: 1px solid #4B4B4B;
   border-radius: 6px;
   font-size: 1rem;
-  background: #1a2430;
+  background: #191919;
   color: #f5f7fa;
   transition: border-color 0.2s ease;
   outline: none;
 }
 
 .chat__input:focus {
-  border-color: #4a90a4;
+  border-color: #535353;
 }
 
 .chat__inputs {
@@ -157,10 +157,10 @@ body {
 .chat__select {
   flex: 1;
   padding: 15px 20px;
-  border: 1px solid #4a90a4;
+  border: 1px solid #4B4B4B;
   border-radius: 6px;
   font-size: 1rem;
-  background: #1a2430;
+  background: #191919;
   color: #f5f7fa;
   cursor: pointer;
   transition: border-color 0.2s ease;
@@ -168,17 +168,17 @@ body {
 }
 
 .chat__select:hover {
-  border-color: #4a90a4;
+  border-color: #535353;
 }
 
 .chat__select:focus {
-  border-color: #4a90a4;
+  border-color: #535353;
 }
 
 .chat__btn {
   flex: 1;
   padding: 15px 30px;
-  background: #4a90a4;
+  background: #5D5D5D;
   color: #f5f7fa;
   border: none;
   border-radius: 6px;
